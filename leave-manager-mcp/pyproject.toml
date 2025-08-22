@@ -1,0 +1,12 @@
+[project]
+name = "leave-manager-mcp"
+version = "0.1.0"
+description = "Leave Management MCP Server"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.13.0",
+]
+
+[project.scripts]
+test-mcp-server = "main:mcp.run"
